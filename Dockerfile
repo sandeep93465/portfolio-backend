@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y maven
 RUN mvn clean package -DskipTests
 
 # Run the jar file (replace with the actual jar name in target folder)
-CMD ["java", "-jar", "target/portfolio-backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/portfolio-backend-1.0.0.jar"]
+
+
 
 
